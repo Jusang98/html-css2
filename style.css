@@ -1,0 +1,114 @@
+.box{
+    width: 2000px;
+    
+}
+.img{
+    width:200px; 
+    height:200px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    }
+    .namebox{
+        font-style: italic;
+        text-align: right;
+        line-height: 50px;
+        font-size: 50px;   
+         
+    }
+    .inforbox{
+        font-style: italic;
+        padding-right: 10px;
+        text-align: right;
+        line-height: 40px;
+        font-size: 20px;   
+        color: rgb(112, 108, 108); 
+    }
+    .bigbox1{
+        font-weight: bold;
+        font-style: italic;
+        padding-left: 10px;
+        padding-top: 10px;
+    text-align: left;
+    line-height: 40px;
+    font-size:30px;
+    color: black;
+    }
+    .datebox{
+        font-weight: bold;
+        font-style: italic;
+        padding-left: 10px;
+        padding-top: 10px;
+    text-align: left;
+    line-height: 40px;
+    font-size:30px;
+    color: black;
+    }
+    .basicbox1{
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: left;
+        font-size: 50px;   
+        color: rgb(112, 108, 108);
+        border-bottom: solid;
+        border-radius: 7px;
+
+    }
+    .basicbox2{
+        padding-right: 10px;
+        padding-left: 5px;
+        text-align: left;
+        line-height: 60px;
+        font-size: 50px;   
+        color: rgb(112, 108, 108);
+        border-bottom: solid;
+        border-radius: 7px;
+
+    }
+   
+.child{
+    height: 250px;
+    /* border: solid; */
+    /* font-weight: bold;
+    text-align: right;
+    line-height: 50px;
+    font-size: 20px; */
+}
+.child:nth-child(2){  
+    
+    width: 800px;
+}
+.child:nth-child(3){
+    height: 50px;
+    width: 800px
+}
+.smallbox1{
+    padding-left: 15px;
+    line-height: 25px;
+    width:800px;
+    height:200px;
+}
+.smallbox2{
+    padding-left: 15px;
+    line-height: 25px;
+    font-size: 20px;
+    width:800px;
+    height:40px;
+}
+
+/* .child:nth-child(1){
+    height: 100px;
+    width: 800px
+} */
+
+
+.se{
+display: flex; 
+align-self: center;
+justify-content: space-between;
+}
